@@ -1,0 +1,40 @@
+{
+  "name": "llslim/drupal-bootatrap-subtheme-talker",
+  "version": "0.0.0",
+  "description": "A subtheme of Drupal Bootstrap that processes css/js assets using Gulp.",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/llslim/drupal-bootstrap-subtheme-talker.git"
+  },
+  "keywords": [
+    "drupal",
+    "theme",
+    "bootstrap",
+    "gulp",
+    "sass"
+  ],
+  "author": "Kevin Williamsi <kevin@llslim.com> (http://llslim.com)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/llslim/drupal-bootstrap-subtheme-talker/issues"
+  },
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "gulp-load-plugins": "~1.5.0",
+    "gulp-util": "~3.0.8",
+    "gulp": "~3.9.1",
+    "gulp-uglify": "~2.0.1",
+    "gulp-autoprefixer": "~3.1.1",
+    "gulp-shell": "~0.5.2",
+    "gulp-sass": "~3.1.0",
+    "gulp-notify": "~3.0.0",
+    "gulp-sourcemaps": "~2.4.1"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}
