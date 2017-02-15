@@ -1,0 +1,17 @@
+{
+    "name": "llslim/drupal-theme-talker",
+    "description": "A drupal bootstrqp subtheme using Gulp",
+    "type": "drupal-custom-theme",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Kevin Williams",
+            "email": "llslim@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "require-dev": {},
+    "version": "0.0.2"
+}
