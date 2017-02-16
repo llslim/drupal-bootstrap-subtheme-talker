@@ -4,15 +4,15 @@
 # Talker Drupal Theme
 
 The Talker theme extends the [Drupal Bootstrap](http://drupal.org/project/bootstrap) base theme
-with a few Additional features like using [gulp-sass](https://www.npmjs.com/package/gulp-sass)
-as preprocessor and the using [bootstrap-sass](https://www.npmjs.com/package/bootstrap-sass) nodejs package
+with a few additional features like using [gulp-sass](https://www.npmjs.com/package/gulp-sass)
+as preprocessor and using [bootstrap-sass](https://www.npmjs.com/package/bootstrap-sass) nodejs package
 instead of downloading it manually.
 
 ## Managing assets with Gulp.
 
 The following tasks are performed with Gulp:
-- compile SASS into css
-- watch for changes in scss, js, or twig files and automatically compile and
+- compile SASS into CSS
+- watch for changes in scss, js, or twig files then automatically compile and
   rebuild the Drupal cache
 
 The use of Gulp in this manner is heavily influenced by the [Neato theme](https://www.drupal.org/project/neato)
@@ -32,4 +32,4 @@ Then use 'require' to get the theme like usual:
 composer require llslim/drupal-theme-talker
 
 
-For more on Bootstrap go to [getbootstrap.org](http://getbootstrap.org)
+For more on Bootstrap go to [getbootstrap.com](http://getbootstrap.com)
