@@ -17,7 +17,7 @@ The following tasks are performed with Gulp:
 
 The use of Gulp in this manner is heavily influenced by the [Neato theme](https://www.drupal.org/project/neato)
 
-## install instructions
+## Install instructions
 
 Because Talker is a sub-theme of Drupal Bootstrap base theme. Drupal Bootstrap
 needs to be downloaded and enabled along side of the Talker theme.
@@ -26,6 +26,7 @@ The Talker theme is still under development and it hasn't been deployed to drupa
 
 If a Drupal 8 project was created with the [composer template](https://github.com/drupal-composer/drupal-project),
 then the Talker theme repository would need to be added to the project's composer.json file by the following command:
+
 composer config repositories.drupal-theme-talker vcs https://github.com/llslim/drupal-theme-talker
 
 Then use 'require' to get the theme like usual:
