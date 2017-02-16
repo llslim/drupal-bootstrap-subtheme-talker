@@ -3,59 +3,33 @@
 <!-- @ingroup sub_theming -->
 # Talker Drupal Theme
 
-The Talker is a sub-theme of the bootstrap Drupal theme with a few additional features like using gulp-sass
-as preprocessor and the using the bootstrap-sass nodejs package.
+The Talker theme extends the [Drupal Bootstrap](http://drupal.org/project/bootstrap) base theme
+with a few Additional features like using [gulp-sass](https://www.npmjs.com/package/gulp-sass)
+as preprocessor and the using [bootstrap-sass](https://www.npmjs.com/package/bootstrap-sass) nodejs package
+instead of downloading it manually.
 
-Below are instructions on how to create a Bootstrap sub-theme using a Sass
-preprocessor.
+## Managing assets with Gulp.
 
-- [Prerequisites](#prerequisites)
-- [Additional Setup](#setup)
-- [Overrides](#overrides)
+The following tasks are performed with Gulp:
+- compile SASS into css
+- watch for changes in scss, js, or twig files and automatically compile and
+  rebuild the Drupal cache
 
-## Prerequisites
-- Read the @link getting_started Getting Started @endlink and @link sub_theming Sub-theming @endlink documentation topics.
-- You must understand the basic concept of using the [Sass] CSS pre-processor.
-- You must use a **[local Sass compiler](https://www.google.com/search?q=sass+compiler)**.
-- You must use the [Bootstrap Framework Source Files] ending in the `.scss`
-  extension, not files ending in `.css`.
+The use of Gulp in this manner is heavily influenced by the [Neato theme](https://www.drupal.org/project/neato)
 
-## Additional Setup {#setup}
-Download and extract the **latest** 3.x.x version of
-[Bootstrap Framework Source Files] into the root of your new sub-theme. After
-it has been extracted, the directory should be renamed (if needed) so it reads
-`./THEMENAME/bootstrap`.
+## install instructions
 
-If for whatever reason you have an additional `bootstrap` directory wrapping the
-first `bootstrap` directory (e.g. `./THEMENAME/bootstrap/bootstrap`), remove the
-wrapping `bootstrap` directory. You will only ever need to touch these files if
-or when you upgrade your version of the [Bootstrap Framework].
+Because Talker is a sub-theme of Drupal Bootstrap base theme. Drupal Bootstrap
+needs to be downloaded and enabled along side of the Talker theme.
 
-{.alert.alert-warning} **WARNING:** Do not modify the files inside of
-`./THEMENAME/bootstrap` directly. Doing so may cause issues when upgrading the
-[Bootstrap Framework] in the future.
+The Talker theme is still under development and it hasn't been deployed to drupal.org or packagist yet.
 
-## Overrides {#overrides}
-The `./THEMENAME/sass/_default-variables.scss` file is generally where you will
-spend the majority of your time providing any default variables that should be
-used by the [Bootstrap Framework] instead of its own.
+If a Drupal 8 project was created with the [composer template](https://github.com/drupal-composer/drupal-project),
+then the Talker theme repository would need to be added to the project's composer.json file by the following command:
+composer config repositories.drupal-theme-talker vcs https://github.com/llslim/drupal-theme-talker
 
-The `./THEMENAME/sass/overrides.scss` file contains various Drupal overrides to
-properly integrate with the [Bootstrap Framework]. It may contain a few
-enhancements, feel free to edit this file as you see fit.
+Then use 'require' to get the theme like usual:
+composer require llslim/drupal-theme-talker
 
-The `./THEMENAME/scss/style.scss` file is the glue that combines:
-`_default-variables.scss`, [Bootstrap Framework Source Files] and the 
-`overrides.scss` file together. Generally, you will not need to modify this
-file unless you need to add or remove files to be imported. This is the file
-that you should compile to `./THEMENAME/css/style.css` (note the same file
-name, using a different extension of course).
 
-#### See also:
-- @link theme_settings Theme Settings @endlink
-- @link templates Templates @endlink
-- @link plugins Plugin System @endlink
-
-[Bootstrap Framework]: http://getbootstrap.com
-[Bootstrap Framework Source Files]: https://github.com/twbs/bootstrap-sass
-[Sass]: http://sass-lang.com
+For more on Bootstrap go to [getbootstrap.org](http://getbootstrap.org)
