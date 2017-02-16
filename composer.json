@@ -11,6 +11,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "twbs/bootstrap-sass": "^3.3"
     },
     "require-dev": {
     }
