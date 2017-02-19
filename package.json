@@ -1,5 +1,5 @@
 {
-  "name": "llslim/drupal-bootatrap-subtheme-talker",
+    "name": "talkerd8",
   "version": "0.0.0",
   "description": "A subtheme of Drupal Bootstrap that processes css/js assets using Gulp.",
   "main": "Gulpfile.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/llslim/drupal-bootstrap-subtheme-talker.git"
+    "url": "git+https://github.com/llslim/talkerd8.git"
   },
   "keywords": [
     "drupal",
@@ -17,10 +17,10 @@
     "gulp",
     "sass"
   ],
-  "author": "Kevin Williamsi <kevin@llslim.com> (http://llslim.com)",
-  "license": "GPL-3.0",
+  "author": "Kevin Williams <kevin@llslim.com> (http://llslim.com)",
+  "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/llslim/drupal-bootstrap-subtheme-talker/issues"
+    "url": "https://github.com/llslim/talkerd8/issues"
   },
   "devDependencies": {
     "fs": "0.0.1-security",
@@ -35,6 +35,5 @@
     "gulp-sourcemaps": "~2.4.1"
   },
   "dependencies": {
-    "bootstrap-sass": "^3.3.7"
   }
 }

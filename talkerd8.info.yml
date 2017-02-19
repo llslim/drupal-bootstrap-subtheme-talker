@@ -2,8 +2,8 @@ core: 8.x
 type: theme
 base theme: bootstrap
 
-name: 'talker'
-description: 'Dral 8 theme for USSAAC.org. Uses the Bootstrap framework Sass source files and must be compiled (not for beginners).'
+name: 'talkerd8'
+description: 'Drupal 8 theme for USSAAC.org. Uses the Bootstrap framework Sass source files and must be compiled (not for beginners).'
 package: 'Bootstrap'
 
 regions:
@@ -20,5 +20,5 @@ regions:
   page_bottom: 'Page bottom'
 
 libraries:
-  - 'talker/global-styling'
-  - 'talker/bootstrap-scripts'
+  - 'talkerd8/global-styling'
+  - 'talkerd8/bootstrap-scripts'

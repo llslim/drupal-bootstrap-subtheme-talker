@@ -1,6 +1,6 @@
 {
-    "name": "llslim/drupal-theme-talker",
-    "description": "A drupal bootstrqp subtheme using Gulp",
+    "name": "llslim/talkerd8",
+    "description": "A Drupal 8 bootstrap subtheme using Gulp",
     "type": "drupal-custom-theme",
     "license": "GPL-2.0",
     "authors": [
@@ -11,6 +11,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "twbs/bootstrap-sass": "^3.3"
     },
     "require-dev": {
     }
